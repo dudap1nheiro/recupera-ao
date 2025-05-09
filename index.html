@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Eduarda Pinheiro</title>
+   
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Eduarda Pinheiro</h1>
+        <nav>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <img src="assets/WhatsApp Image 2025-05-09 at 16.26.10.jpeg" alt="Foto da Duda">
+        <h2>Sobre Mim</h2>
+        <p>Oi! Eu sou a Duda, faço Técnico em Desenvolvimento de Sistemas no Senac e amo escutar música. Acho que me sinto mais inspirada quando estou com meus fones.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto" onclick="abrirProjeto('pokedex')">
+            <h3>Pokédex</h3>
+            <p>Uma Pokédex interativa para fãs de Pokémon.</p>
+            <a href="../pokedex/index.html">link pokedex</a>
+        </div>
+        <div class="projeto" onclick="abrirProjeto('calculadora')">
+            <h3>Calculadora</h3>
+            <p>Uma calculadora simples, mas estilosa e eficiente.</p>
+            <a href="../calculadora/calculadora.html">link calculadora</a>
+        </div>
+        <div class="projeto" onclick="abrirProjeto('Rebeldes')">
+            <h3>Rebelde</h3>
+            <p>Um sistema de fã clube para Rebeldes.</p>
+            <a href="../rebeldes/rebeldes.html">link rebeldes</a>
+        </div>
+    </section>
+    <script>
+        // Função de exemplo para projetos
+        function abrirProjeto(projeto) {
+            alert("Abrindo o projeto: " + projeto);
+        }
+    </script>
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Me chama no Instagram ou manda um e-mail se quiser trocar uma ideia!</p>
+        <ul>
+            <li><a href="https://www.instagram.com/dudap1nheiro" target="_blank">Instagram</a></li>
+            <li><a href="mailto:seuemail@gmail.com">E-mail</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
